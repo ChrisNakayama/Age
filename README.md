@@ -40,6 +40,8 @@ HTML, CSS and Javascript. The directories used are Bootstrap.css for css and jQu
 License:  MIT
 
 Copyright (c) 2022 Christopher Nakayama
+
+
 **Specs:
 
 **Behavior:** Ensure the number entered is a positive number.
