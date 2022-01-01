@@ -16,9 +16,15 @@ describe('Age', () => {
       const mercuryAge = age.toMercury();
       expect(mercuryAge).toEqual(25 / 0.24);
     });
-    test('should determine years left on Venus based on life expectancy', () => {
+    
+    test('should convert age to Venus age', () => {
       const age = new Age(25)
-      const venusYearsLeft = age.venusExpect();
-      expect(venusYearsLeft).toEqual((75 * 0.62) - (25 / 0.62));
+      const venusAge = age.toVenus();
+      expect(venusAge).toEqual(25 / 0.62);
+    });
+    test('should convert age to Mars age', () => {
+      const age = new Age(25)
+      const marsAge = age.toMars();
+      expect(marsAge).toEqual(25 / 1.88);
     });
   });
