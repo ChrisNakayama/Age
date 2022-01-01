@@ -57,4 +57,8 @@ marsExpect() {
   this.marsYearsLeft = ((75 * 1.88) - (this.earthAge / 1.88));
   return this.marsYearsLeft;
 }
+jupiterExpect() {
+  this.jupiterYearsLeft = ((75 * 11.86) - (this.earthAge / 11.86));
+  return this.jupiterYearsLeft;
+}
 }
