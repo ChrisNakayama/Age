@@ -61,4 +61,8 @@ jupiterExpect() {
   this.jupiterYearsLeft = ((75 * 11.86) - (this.earthAge / 11.86));
   return this.jupiterYearsLeft;
 }
+earthBeyondAge() {
+  this.earthYearsPast = (this.earthAge - 75);
+  return this.earthYearsPast;
+  }
 }
