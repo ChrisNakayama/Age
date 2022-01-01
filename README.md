@@ -10,11 +10,11 @@ This program calculates age in solar years based on different planets years comp
 
 Setup/Installation Requirements:
 
-1.Clone w-5 to desired directory or download .zip file.
+1.Clone age to desired directory or download .zip file.
 
 2.Navigate to the directory in terminal or other command line interface with this command:
 
-$ cd w-5
+$ cd age
 
 3.while in the root directory install nodes with:
 
