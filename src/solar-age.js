@@ -32,4 +32,8 @@ toVenus() {
   this.venusAge = (this.earthAge / 0.62);
   return this.venusAge;
 }
+toMars() {
+  this.marsAge = (this.earthAge / 1.88);
+  return this.marsAge;
+}
 }
