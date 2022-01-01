@@ -8,10 +8,6 @@ Solar Age Calculator
 
 This program calculates age in solar years based on different planets years compared to an earth year. This program also calculates how many years left a person might have to live based on an average lifespan on earth.
 
-
-Setup/Installation Requirements:
-
-
 Setup/Installation Requirements:
 
 1.Clone w-5 to desired directory or download .zip file.
@@ -20,20 +16,16 @@ Setup/Installation Requirements:
 
 $ cd w-5
 
-while in the root directory install nodes with:
+3.while in the root directory install nodes with:
 
 $ npm install
 
-3.Once bundle.js and the node_module are installed run this command:
+4.Once bundle.js and the node_module are installed run this command:
 
 $ npm run start
 
-4. After $ npm run start command has completed you are ready to test! 
-5. Use the command: $ npm run test 
-
-
-
-
+5. After $ npm run start command has completed you are ready to test! 
+6. Use the command: $ npm run test 
 
 Known Bugs:
 
@@ -43,9 +35,9 @@ If you have any issues or questions, please contact me at cnakayam@gmail.com.
 
 Technologies Used:
 
-HTML, CSS and Javascript. The diractories used are Bootstrap.css for css and jQuery 3.6.0 for JavaScript.
+HTML, CSS and Javascript. The directories used are Bootstrap.css for css and jQuery 3.6.0 for JavaScript.
 
-License: MIT
+License:  2022 Christopher Nakayama MIT
 
 **Specs:
 
