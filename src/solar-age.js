@@ -65,4 +65,8 @@ earthBeyondAge() {
   this.earthYearsPast = (this.earthAge - 75);
   return this.earthYearsPast;
   }
+mercuryBeyondAge() {
+  this.mercuryYearsPast = ((this.earthAge * 0.24) - (75 / 0.24));
+  return this.mercuryYearsPast;
+  }
 }
