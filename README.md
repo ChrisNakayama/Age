@@ -37,8 +37,9 @@ Technologies Used:
 
 HTML, CSS and Javascript. The directories used are Bootstrap.css for css and jQuery 3.6.0 for JavaScript.
 
-License:  2022 Christopher Nakayama MIT
+License:  MIT
 
+Copyright (c) 2022 Christopher Nakayama
 **Specs:
 
 **Behavior:** Ensure the number entered is a positive number.
