@@ -69,4 +69,8 @@ mercuryBeyondAge() {
   this.mercuryYearsPast = ((this.earthAge * 0.24) - (75 / 0.24));
   return this.mercuryYearsPast;
   }
+venusBeyondAge() {
+    this.venusYearsPast = ((this.earthAge * 0.62)- (75 / 0.62));
+    return this.venusYearsPast;
+    }
 }
